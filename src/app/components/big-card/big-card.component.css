@@ -1,0 +1,15 @@
+.container_card_main{
+    margin: 10px 130px;
+    width: 100%;
+}
+
+.container_image_big_card > img{ 
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%, 0 15%);
+}
+
+.container_card_img{
+    position: relative;
+    top: -140px;
+    left: 30px;
+    width: 100%;
+}
