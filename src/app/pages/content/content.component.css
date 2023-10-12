@@ -1,0 +1,38 @@
+.container_content{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img_content{
+    display: flex;
+}
+
+.img_content img{
+    border: 5px solid black;
+    border-radius: 9px;
+    width: 400px;
+}
+.img_content a{
+    position: relative;
+    height: 10%;
+    top: 10px;
+    left: 80px;
+    text-decoration: none;
+}
+.title_content{
+    position: relative;
+    right: 2%;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.p_content{
+    position: relative;
+    right: 2%;
+}
+.p_content p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(91, 91, 97);
+}

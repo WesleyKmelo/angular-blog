@@ -1,7 +1,3 @@
-<div class="menuBar">
-    <app-menu-bar></app-menu-bar>
-</div>
-
 <div class="testdiv">
     
     <app-title title="Jornal Blog. Entrevistas e Design"></app-title>
@@ -11,9 +7,30 @@
             <app-big-card></app-big-card>
         </div>
         <div class="container_small_cards">
-            <app-small-card title="Titulo Card01"></app-small-card>
-            <app-small-card title="Titulo Card02"></app-small-card>
-            <app-small-card title="Titulo Card03"></app-small-card>
+            <app-small-card 
+                Id="1"
+                title="Titulo Card01" 
+                urlImg="/assets/img/card01.png"
+                altImg="Image01"
+                content="Conteúdo do card 01">
+            </app-small-card>
+
+            <app-small-card 
+                Id="2"
+                title="Titulo Card02"
+                urlImg="/assets/img/card02.png"
+                altImg="Image02"
+                content="Conteudo do card 02">
+            </app-small-card>
+
+            <app-small-card 
+                Id="3"
+                title="Titulo Card03"
+                urlImg="/assets/img/card03.png"
+                altImg="Image03"
+                content="Conteúdo do card 03. Todo conteudo do card 03"
+                criteria="Critério de Pesquisa">
+            </app-small-card>            
         </div>
     </div>
 </div>

@@ -3,15 +3,24 @@
     flex-direction: row;
     justify-content: center;
     width: 1000px;
-    margin-bottom: 10px;
-   }
+}
 
 
 .containerMenuBar ul {
     display: flex;
+    align-items: center;
 }
 
 .containerMenuBar li{
     margin-right: 15px;
     list-style: none;
+}
+
+.containerMenuBar a{    
+    text-decoration: none;   
+}
+.containerMenuBar span{
+    font-size: 50px;
+    content: "\00B7";
+    color: rgb(51, 78, 230);
 }
